@@ -22,7 +22,7 @@ public class POE {
     private static final ArrayList<String> messageIDs = new ArrayList<>();
     private static int totalMessagesSent = 0;
     private static int nextMessageNumber = 0;
-
+// my second commit
     public static class Login {
         private final String firstName, lastName, username, password, cellPhoneNumber;
         public Login(String firstName, String lastName, String username, String password, String cellPhoneNumber) {
