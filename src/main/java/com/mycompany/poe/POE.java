@@ -64,7 +64,7 @@ public class POE {
         private final int messageNumber;
         private final String status;
         private static final Random RANDOM = new Random();
-
+// my fourth commit
         public Message(int messageNumber, String recipient, String message) {
             this(messageNumber, recipient, message, "", generateUniqueID(), "Draft");
         }
