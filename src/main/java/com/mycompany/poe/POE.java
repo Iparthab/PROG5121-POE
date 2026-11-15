@@ -58,7 +58,7 @@ public class POE {
         }
         public String getSender() { return cellPhoneNumber; }
     }
-
+// my third commit
     public static class Message {
         private final String messageID, recipient, message, messageHash, sender;
         private final int messageNumber;
