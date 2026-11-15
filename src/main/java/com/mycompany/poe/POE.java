@@ -146,7 +146,7 @@ public class POE {
     public static List<Message> getStoredMessages() { return new ArrayList<>(storedMessages); }
     public static List<String> getMessageHashes() { return new ArrayList<>(messageHashes); }
     public static List<String> getMessageIDs() { return new ArrayList<>(messageIDs); }
-
+// my sixth commit
     // JSON serialization and reading use only Java standard library (no extra dependency).
     // JSON format reference: https://www.json.org/json-en.html
     private static String quote(String value) {
